@@ -142,5 +142,7 @@ h1 span{
       font-size: 40%;
     }
     .center{
-        text-align:center;
+        display:flex;
+        align-items:center;
+        justify-content:center;
   }
