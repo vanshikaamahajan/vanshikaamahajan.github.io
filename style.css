@@ -159,14 +159,15 @@ section{
     html {
         font-size: 50%;
       }
+     .home-content p{
+        font-size:1.8rem;
+    }
 }
 @media(max-width:400px){
     html{
       font-size: 45%;
     }
-     .home-content p{
-        font-size:1.8rem;
-    }
+    
   }
     
 
