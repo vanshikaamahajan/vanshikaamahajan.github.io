@@ -141,4 +141,6 @@ h1 span{
     html{
       font-size: 40%;
     }
+    body h1 span{
+        text-align:center;
   }
