@@ -164,6 +164,9 @@ section{
     html{
       font-size: 45%;
     }
+     .home-content p{
+        font-size:1.8rem;
+    }
   }
     
 
