@@ -7,11 +7,11 @@
     <title>Personal portfolio</title>
     <link rel="stylesheet" href="stylecontact.css">
 
+
 </head>
 
 <body>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
     <div class="nav">
 
         <ul>
@@ -46,33 +46,36 @@
                     <ion-icon name="logo-github"></ion-icon>
                 </a>
             </div>
-            <form action="https://formsubmit.co/0d9d294705094861b71e87b2ce16cb40" method="POST" >
+            <form id="contactForm">
                 <div class="mb-3">
                     <label for="clientemail" class="form-label">Email address</label>
-                    <input type="email" name="Email" class="form-control" id="clientemail" aria-describedby="emailHelp" required>
+                    <input type="email" class="form-control" id="clientemail" required>
 
                 </div>
                 <div class="mb-3">
                     <label for="clientname" class="form-label">Full Name</label>
-                    <input type="text" name="Name" class="form-control" id="clientname" aria-describedby="clientname" required>
+                    <input type="text" class="form-control" id="clientname" required>
 
                 </div>
                 <div class="mb-3">
                     <label for="clientphone" class="form-label">Phone</label>
-                    <input type="number" name="Mobile no"class="form-control" id="clientphone" required>
+                    <input type="number" name="Mobile no" class="form-control" id="clientphone" required>
                 </div>
                 <div class="mb-3">
                     <label for="clientmessage" class="form-label">Drop a message</label>
-                    <input type="text" name="Message"class="form-control" id="clientmessage" required>
+                    <input type="text" name="Message" class="form-control" id="clientmessage" required>
 
                 </div>
                 <div class="submitbutton">
-                    <button  type="submit" class="btn btn-primary btn-lg">SEND MESSAGE</button>
+                    <button type="submit" value="Send" class="btn btn-primary btn-lg">SEND MESSAGE</button>
                 </div>
             </form>
+      
         </div>
     </div>
-  
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="contact.js"></script>
+
 </body>
 
 </html>
